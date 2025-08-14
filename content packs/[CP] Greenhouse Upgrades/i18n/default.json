@@ -1,0 +1,24 @@
+{
+
+    "Building.GreenhouseUpgrade.GeneralName": "Greenhouse",
+    "Building.BaseGreenhouse.name": "Greenhouse",
+    "Building.BaseGreenhouse.description": "An additional greenhouse for your farm.",
+    "Building.GreenhouseUpgrade1.name": "Greenhouse Upgrade 1",
+    "Building.GreenhouseUpgrade1.description": "Get a little more space to grow crops in.",
+    "Building.GreenhouseUpgrade2.name": "Greenhouse Upgrade 2",
+    "Building.GreenhouseUpgrade2.description": "Get some more space to grow crops in.",
+    "Building.GreenhouseUpgrade3.name": "Greenhouse Upgrade 3",
+    "Building.GreenhouseUpgrade3.description": "Get even more space to grow crops in.",
+    "Building.GreenhouseUpgrade4.name": "Greenhouse Upgrade 4",
+    "Building.GreenhouseUpgrade4.description": "Add some sprinklers to automatically water your crops.",
+    "Building.GreenhouseUpgrade5.name": "Greenhouse Upgrade 5",
+    "Building.GreenhouseUpgrade5.description": "Make room for a dedicated fruit tree area.",
+    "config.BuildExtraGreenhouses.name": "Build Extra Greenhouses",
+    "config.BuildExtraGreenhouses.description": "Allows building of extra greenhouses.",
+    "config.SectionedPlots.name": "Sectioned Plots",
+    "config.SectionedPlots.description": "Sets the plots to be sectioned into smaller areas or one large plot.//n Does not work with Smaller Interriors",
+    "config.IncludedTreeArea.name": "Included Tree Area",
+    "config.IncludedTreeArea.description": "Adds a dedicated area to grow trees in.",
+    "config.SmallerInterrior.name": "Smaller Interrior",
+    "config.SmallerInterrior.description": "Substantially reduces the size of the upgrades."
+}

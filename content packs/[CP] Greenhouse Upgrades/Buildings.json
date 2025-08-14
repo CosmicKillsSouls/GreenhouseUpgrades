@@ -1,0 +1,442 @@
+﻿{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "GreenhouseUpgrades.Greenhouse": {
+                    "Name": "{{i18n: Building.BaseGreenhouse.name}}",
+                    "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
+                    "Description": "{{i18n: Building.BaseGreenhouse.description}}",
+                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Size": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 112,
+                        "Height": 160
+                    },
+                    "DrawLayers": [
+                        {
+                            "Id": "Default",
+                            "SourceRect": {
+                                "X": 112,
+                                "Y": 22,
+                                "Width": 128,
+                                "Height": 160
+                            },
+                            "DrawPosition": "-16, 66",
+                            "DrawInBackground": true
+                        }
+                    ],
+                    "HumanDoor": "3, 5",
+                    "IndoorMap": "BaseGreenhouse",
+                    "BuildingType": "Greenhouse",
+                    "BuildCondition": "FALSE",
+                    "DrawShadow": false
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "When": {
+                "BuildExtraGreenhouses": "true"
+            },
+            "Entries": {
+                "GreenhouseUpgrades.Greenhouse": {
+                    "Name": "{{i18n: Building.BaseGreenhouse.name}}",
+                    "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
+                    "Description": "{{i18n: Building.BaseGreenhouse.description}}",
+                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Size": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 112,
+                        "Height": 160
+                    },
+                    "DrawLayers": [
+                        {
+                            "Id": "Default",
+                            "SourceRect": {
+                                "X": 112,
+                                "Y": 22,
+                                "Width": 128,
+                                "Height": 160
+                            },
+                            "DrawPosition": "-16, 66",
+                            "DrawInBackground": true
+                        }
+                    ],
+                    "HumanDoor": "3, 5",
+                    "IndoorMap": "BaseGreenhouse",
+                    "BuildingType": "Greenhouse",
+                    "BuildCondition": "PLAYER_HAS_MAIL Current ccPantry Received",
+                    "Builder": "Robin",
+                    "BuildDays": 3,
+                    "BuildCost": 15000,
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)80", //Quartz
+                            "ItemId": "(O)80",
+                            "Amount": 10
+                        },
+                        {
+                            "Id": "(O)709", //Hardwood
+                            "ItemId": "(O)709",
+                            "Amount": 30
+                        },
+                        {
+                            "Id": "(O)330", //Clay
+                            "ItemId": "(O)330",
+                            "Amount": 50
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": -30
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "GreenhouseUpgrades.GreenhouseUpgrade1": {
+                    "Name": "{{i18n: Building.GreenhouseUpgrade1.name}}",
+                    "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
+                    "Description": "{{i18n: Building.GreenhouseUpgrade1.description}}",
+                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Builder": "Robin",
+                    "Size": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 112,
+                        "Height": 160
+                    },
+                    "DrawLayers": [
+                        {
+                            "Id": "Default",
+                            "SourceRect": {
+                                "X": 112,
+                                "Y": 22,
+                                "Width": 128,
+                                "Height": 160
+                            },
+                            "DrawPosition": "-16, 66",
+                            "DrawInBackground": true
+                        }
+                    ],
+                    "HumanDoor": "3, 5",
+                    "IndoorMap": "GreenhouseUpgrade1",
+                    "BuildingToUpgrade": "GreenhouseUpgrades.Greenhouse",
+                    "BuildingType": "Greenhouse",
+                    "BuildDays": 3,
+                    "BuildCost": 10000,
+                    "UpgradeSignTile": "3, 3",
+                    "UpgradeSignHeight": "5",
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)82", //Fire Quartz
+                            "ItemId": "(O)82",
+                            "Amount": 5
+                        },
+                        {
+                            "Id": "(O)388", //Wood
+                            "ItemId": "(O)38",
+                            "Amount": 100
+                        },
+                        {
+                            "Id": "(O)330", //Clay
+                            "ItemId": "(O)330",
+                            "Amount": 10
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": -30
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "GreenhouseUpgrades.GreenhouseUpgrade2": {
+                    "Name": "{{i18n: Building.GreenhouseUpgrade2.name}}",
+                    "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
+                    "Description": "{{i18n: Building.GreenhouseUpgrade2.description}}",
+                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Builder": "Robin",
+                    "Size": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 112,
+                        "Height": 160
+                    },
+                    "DrawLayers": [
+                        {
+                            "Id": "Default",
+                            "SourceRect": {
+                                "X": 112,
+                                "Y": 22,
+                                "Width": 128,
+                                "Height": 160
+                            },
+                            "DrawPosition": "-16, 66",
+                            "DrawInBackground": true
+                        }
+                    ],
+                    "HumanDoor": "3, 5",
+                    "IndoorMap": "GreenhouseUpgrade2",
+                    "BuildingToUpgrade": "GreenhouseUpgrades.GreenhouseUpgrade1",
+                    "BuildingType": "Greenhouse",
+                    "BuildDays": 3,
+                    "BuildCost": 20000,
+                    "UpgradeSignTile": "3, 3",
+                    "UpgradeSignHeight": "5",
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)355", //Iron Bar
+                            "ItemId": "(O)355",
+                            "Amount": 15
+                        },
+                        {
+                            "Id": "(O)709", //Hardwood
+                            "ItemId": "(O)709",
+                            "Amount": 50
+                        },
+                        {
+                            "Id": "(O)330", //Clay
+                            "ItemId": "(O)330",
+                            "Amount": 25
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": -30
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "GreenhouseUpgrades.GreenhouseUpgrade3": {
+                    "Name": "{{i18n: Building.GreenhouseUpgrade3.name}}",
+                    "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
+                    "Description": "{{i18n: Building.GreenhouseUpgrade3.description}}",
+                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Builder": "Robin",
+                    "Size": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 112,
+                        "Height": 160
+                    },
+                    "DrawLayers": [
+                        {
+                            "Id": "Default",
+                            "SourceRect": {
+                                "X": 112,
+                                "Y": 22,
+                                "Width": 128,
+                                "Height": 160
+                            },
+                            "DrawPosition": "-16, 66",
+                            "DrawInBackground": true
+                        }
+                    ],
+                    "HumanDoor": "3, 5",
+                    "IndoorMap": "GreenhouseUpgrade3",
+                    "BuildingToUpgrade": "GreenhouseUpgrades.GreenhouseUpgrade2",
+                    "BuildingType": "Greenhouse",
+                    "BuildDays": 3,
+                    "BuildCost": 40000,
+                    "UpgradeSignTile": "3, 3",
+                    "UpgradeSignHeight": "5",
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)82", //Fire Quartz
+                            "ItemId": "(O)82",
+                            "Amount": 10
+                        },
+                        {
+                            "Id": "(O)709", //Hardwood
+                            "ItemId": "(O)709",
+                            "Amount": 50
+                        },
+                        {
+                            "Id": "(O)330", //Clay
+                            "ItemId": "(O)330",
+                            "Amount": 25
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": -30
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "GreenhouseUpgrades.GreenhouseUpgrade4": {
+                    "Name": "{{i18n: Building.GreenhouseUpgrade4.name}}",
+                    "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
+                    "Description": "{{i18n: Building.GreenhouseUpgrade4.description}}",
+                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Builder": "Robin",
+                    "Size": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 112,
+                        "Height": 160
+                    },
+                    "DrawLayers": [
+                        {
+                            "Id": "Default",
+                            "SourceRect": {
+                                "X": 112,
+                                "Y": 22,
+                                "Width": 128,
+                                "Height": 160
+                            },
+                            "DrawPosition": "-16, 66",
+                            "DrawInBackground": true
+                        }
+                    ],
+                    "HumanDoor": "3, 5",
+                    "IndoorMap": "GreenhouseUpgrade3",
+                    "BuildingToUpgrade": "GreenhouseUpgrades.GreenhouseUpgrade3",
+                    "BuildingType": "Greenhouse",
+                    "BuildDays": 3,
+                    "BuildCost": 100000,
+                    "UpgradeSignTile": "3, 3",
+                    "UpgradeSignHeight": "5",
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)335", //Iron Bar
+                            "ItemId": "(O)335",
+                            "Amount": 10
+                        },
+                        {
+                            "Id": "(O)645", //Iridium Sprinkler
+                            "ItemId": "(O)645",
+                            "Amount": 25
+                        },
+                        {
+                            "Id": "(O)787", //Battery Pack
+                            "ItemId": "(O)787",
+                            "Amount": 50
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": -30
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "GreenhouseUpgrades.GreenhouseUpgrade5": {
+                    "Name": "{{i18n: Building.GreenhouseUpgrade5.name}}",
+                    "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
+                    "Description": "{{i18n: Building.GreenhouseUpgrade5.description}}",
+                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Builder": "Robin",
+                    "Size": {
+                        "X": 7,
+                        "Y": 6
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 112,
+                        "Height": 160
+                    },
+                    "DrawLayers": [
+                        {
+                            "Id": "Default",
+                            "SourceRect": {
+                                "X": 112,
+                                "Y": 22,
+                                "Width": 128,
+                                "Height": 160
+                            },
+                            "DrawPosition": "-16, 66",
+                            "DrawInBackground": true
+                        }
+                    ],
+                    "HumanDoor": "3, 5",
+                    "IndoorMap": "GreenhouseUpgrade5",
+                    "BuildingToUpgrade": "GreenhouseUpgrades.GreenhouseUpgrade4",
+                    "BuildingType": "Greenhouse",
+                    "BuildCondition": "{{IncludedTreeArea}} = true",
+                    "BuildDays": 3,
+                    "BuildCost": 50000,
+                    "UpgradeSignTile": "3, 3",
+                    "UpgradeSignHeight": "5",
+                    "DrawShadow": false,
+                    "BuildMaterials": [
+                        {
+                            "Id": "(O)80", //Quartz
+                            "ItemId": "(O)80",
+                            "Amount": 20
+                        },
+                        {
+                            "Id": "(O)709", //Hardwood
+                            "ItemId": "(O)709",
+                            "Amount": 20
+                        },
+                        {
+                            "Id": "(O)330", //Clay
+                            "ItemId": "(O)330",
+                            "Amount": 50
+                        }
+                    ],
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": -30
+                    }
+                }
+            }
+        }
+    ]
+}
