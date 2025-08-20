@@ -4,7 +4,8 @@
             "Action": "EditData",
             "Target": "Data/Buildings",
             "When": {
-                "BuildExtraGreenhouses": "true" },
+                "BuildExtraGreenhouses": "true"
+            },
             "Entries": {
                 "GreenhouseUpgrades.Greenhouse": {
                     "BuildCost": 15000,
@@ -12,17 +13,17 @@
                         {
                             "Id": "(O)80", //Quartz
                             "ItemId": "(O)80",
-                            "Amount": 10
+                            "Amount": 5
                         },
                         {
                             "Id": "(O)709", //Hardwood
                             "ItemId": "(O)709",
-                            "Amount": 30
+                            "Amount": 20
                         },
                         {
                             "Id": "(O)330", //Clay
                             "ItemId": "(O)330",
-                            "Amount": 50
+                            "Amount": 30
                         }
                     ]
                 }
@@ -66,17 +67,17 @@
                         {
                             "Id": "(O)355", //Iron Bar
                             "ItemId": "(O)355",
-                            "Amount": 15
+                            "Amount": 10
                         },
                         {
                             "Id": "(O)709", //Hardwood
                             "ItemId": "(O)709",
-                            "Amount": 50
+                            "Amount": 30
                         },
                         {
                             "Id": "(O)330", //Clay
                             "ItemId": "(O)330",
-                            "Amount": 25
+                            "Amount": 20
                         }
                     ]
                 }
@@ -88,22 +89,22 @@
             "Entries": {
                 "GreenhouseUpgrades.GreenhouseUpgrade3": {
                     "IndoorMap": "SmallerGreenhouseUpgrade3",
-                    "BuildCost": 40000,
+                    "BuildCost": 35000,
                     "BuildMaterials": [
                         {
-                            "Id": "(O)82", //Fire Quartz
-                            "ItemId": "(O)82",
-                            "Amount": 10
+                            "Id": "(O)338", //Refined Quartz
+                            "ItemId": "(O)338",
+                            "Amount": 15
                         },
                         {
                             "Id": "(O)709", //Hardwood
                             "ItemId": "(O)709",
-                            "Amount": 50
+                            "Amount": 40
                         },
                         {
                             "Id": "(O)330", //Clay
                             "ItemId": "(O)330",
-                            "Amount": 25
+                            "Amount": 20
                         }
                     ]
                 }
@@ -115,22 +116,22 @@
             "Entries": {
                 "GreenhouseUpgrades.GreenhouseUpgrade4": {
                     "IndoorMap": "SmallerGreenhouseUpgrade3",
-                    "BuildCost": 100000,
+                    "BuildCost": 75000,
                     "BuildMaterials": [
                         {
                             "Id": "(O)335", //Iron Bar
                             "ItemId": "(O)335",
-                            "Amount": 10
+                            "Amount": 5
                         },
                         {
                             "Id": "(O)645", //Iridium Sprinkler
                             "ItemId": "(O)645",
-                            "Amount": 25
+                            "Amount": 12
                         },
                         {
                             "Id": "(O)787", //Battery Pack
                             "ItemId": "(O)787",
-                            "Amount": 50
+                            "Amount": 20
                         }
                     ]
                 }
@@ -142,22 +143,22 @@
             "Entries": {
                 "GreenhouseUpgrades.GreenhouseUpgrade5": {
                     "IndoorMap": "SmallerGreenhouseUpgrade4",
-                    "BuildCost": 50000,
+                    "BuildCost": 30000,
                     "BuildMaterials": [
                         {
-                            "Id": "(O)80", //Quartz
-                            "ItemId": "(O)80",
-                            "Amount": 20
+                            "Id": "(O)338", //Refined Quartz
+                            "ItemId": "(O)338",
+                            "Amount": 25
                         },
                         {
                             "Id": "(O)709", //Hardwood
                             "ItemId": "(O)709",
-                            "Amount": 20
+                            "Amount": 15
                         },
                         {
                             "Id": "(O)330", //Clay
                             "ItemId": "(O)330",
-                            "Amount": 50
+                            "Amount": 30
                         }
                     ]
                 }

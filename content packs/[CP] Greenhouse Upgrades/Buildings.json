@@ -158,12 +158,12 @@
                         {
                             "Id": "(O)388", //Wood
                             "ItemId": "(O)38",
-                            "Amount": 100
+                            "Amount": 200
                         },
                         {
                             "Id": "(O)330", //Clay
                             "ItemId": "(O)330",
-                            "Amount": 10
+                            "Amount": 15
                         }
                     ],
                     "BuildMenuDrawOffset": {
@@ -283,19 +283,19 @@
                     "DrawShadow": false,
                     "BuildMaterials": [
                         {
-                            "Id": "(O)82", //Fire Quartz
-                            "ItemId": "(O)82",
-                            "Amount": 10
+                            "Id": "(O)338", //Refined Quartz
+                            "ItemId": "(O)338",
+                            "Amount": 30
                         },
                         {
                             "Id": "(O)709", //Hardwood
                             "ItemId": "(O)709",
-                            "Amount": 50
+                            "Amount": 60
                         },
                         {
                             "Id": "(O)330", //Clay
                             "ItemId": "(O)330",
-                            "Amount": 25
+                            "Amount": 40
                         }
                     ],
                     "BuildMenuDrawOffset": {
@@ -416,9 +416,9 @@
                     "DrawShadow": false,
                     "BuildMaterials": [
                         {
-                            "Id": "(O)80", //Quartz
-                            "ItemId": "(O)80",
-                            "Amount": 20
+                            "Id": "(O)338", //Refined Quartz
+                            "ItemId": "(O)338",
+                            "Amount": 40
                         },
                         {
                             "Id": "(O)709", //Hardwood
