@@ -157,7 +157,7 @@
                         },
                         {
                             "Id": "(O)388", //Wood
-                            "ItemId": "(O)38",
+                            "ItemId": "(O)388",
                             "Amount": 200
                         },
                         {
@@ -217,8 +217,8 @@
                     "DrawShadow": false,
                     "BuildMaterials": [
                         {
-                            "Id": "(O)355", //Iron Bar
-                            "ItemId": "(O)355",
+                            "Id": "(O)335", //Iron Bar
+                            "ItemId": "(O)335",
                             "Amount": 15
                         },
                         {
