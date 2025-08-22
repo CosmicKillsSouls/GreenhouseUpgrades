@@ -35,9 +35,21 @@
             }
         },
         {
-            "Action": "Load",
-            "Target": "Buildings/GreenhouseUpgrades.Greenhouse",
-            "FromFile": "assets/Greenhouse.png"
+            "Action": "EditImage",
+            "Target": "Buildings/Greenhouse",
+            "FromFile": "assets/GreenhouseShadow.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 127,
+                "Height": 132
+            },
+            "ToArea": {
+                "X": 112,
+                "Y": 144,
+                "Width": 127,
+                "Height": 132
+            }
         },
         {
             "Action": "Load",

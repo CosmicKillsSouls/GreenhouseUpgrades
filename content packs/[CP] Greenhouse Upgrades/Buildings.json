@@ -8,14 +8,14 @@
                     "Name": "{{i18n: Building.BaseGreenhouse.name}}",
                     "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
                     "Description": "{{i18n: Building.BaseGreenhouse.description}}",
-                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Texture": "Buildings\\Greenhouse",
                     "Size": {
                         "X": 7,
                         "Y": 6
                     },
                     "SourceRect": {
                         "X": 0,
-                        "Y": 0,
+                        "Y": 160,
                         "Width": 112,
                         "Height": 160
                     },
@@ -24,7 +24,7 @@
                             "Id": "Default",
                             "SourceRect": {
                                 "X": 112,
-                                "Y": 22,
+                                "Y": 143,
                                 "Width": 128,
                                 "Height": 160
                             },
@@ -51,14 +51,14 @@
                     "Name": "{{i18n: Building.BaseGreenhouse.name}}",
                     "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
                     "Description": "{{i18n: Building.BaseGreenhouse.description}}",
-                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Texture": "Buildings\\Greenhouse",
                     "Size": {
                         "X": 7,
                         "Y": 6
                     },
                     "SourceRect": {
                         "X": 0,
-                        "Y": 0,
+                        "Y": 160,
                         "Width": 112,
                         "Height": 160
                     },
@@ -67,7 +67,7 @@
                             "Id": "Default",
                             "SourceRect": {
                                 "X": 112,
-                                "Y": 22,
+                                "Y": 143,
                                 "Width": 128,
                                 "Height": 160
                             },
@@ -115,7 +115,7 @@
                     "Name": "{{i18n: Building.GreenhouseUpgrade1.name}}",
                     "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
                     "Description": "{{i18n: Building.GreenhouseUpgrade1.description}}",
-                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Texture": "Buildings\\Greenhouse",
                     "Builder": "Robin",
                     "Size": {
                         "X": 7,
@@ -123,7 +123,7 @@
                     },
                     "SourceRect": {
                         "X": 0,
-                        "Y": 0,
+                        "Y": 160,
                         "Width": 112,
                         "Height": 160
                     },
@@ -132,7 +132,7 @@
                             "Id": "Default",
                             "SourceRect": {
                                 "X": 112,
-                                "Y": 22,
+                                "Y": 143,
                                 "Width": 128,
                                 "Height": 160
                             },
@@ -168,7 +168,7 @@
                     ],
                     "BuildMenuDrawOffset": {
                         "X": 0,
-                        "Y": -30
+                        "Y": -190
                     }
                 }
             }
@@ -181,7 +181,7 @@
                     "Name": "{{i18n: Building.GreenhouseUpgrade2.name}}",
                     "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
                     "Description": "{{i18n: Building.GreenhouseUpgrade2.description}}",
-                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Texture": "Buildings\\Greenhouse",
                     "Builder": "Robin",
                     "Size": {
                         "X": 7,
@@ -189,7 +189,7 @@
                     },
                     "SourceRect": {
                         "X": 0,
-                        "Y": 0,
+                        "Y": 160,
                         "Width": 112,
                         "Height": 160
                     },
@@ -198,7 +198,7 @@
                             "Id": "Default",
                             "SourceRect": {
                                 "X": 112,
-                                "Y": 22,
+                                "Y": 143,
                                 "Width": 128,
                                 "Height": 160
                             },
@@ -247,7 +247,7 @@
                     "Name": "{{i18n: Building.GreenhouseUpgrade3.name}}",
                     "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
                     "Description": "{{i18n: Building.GreenhouseUpgrade3.description}}",
-                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Texture": "Buildings\\Greenhouse",
                     "Builder": "Robin",
                     "Size": {
                         "X": 7,
@@ -255,7 +255,7 @@
                     },
                     "SourceRect": {
                         "X": 0,
-                        "Y": 0,
+                        "Y": 160,
                         "Width": 112,
                         "Height": 160
                     },
@@ -264,7 +264,7 @@
                             "Id": "Default",
                             "SourceRect": {
                                 "X": 112,
-                                "Y": 22,
+                                "Y": 143,
                                 "Width": 128,
                                 "Height": 160
                             },
@@ -313,7 +313,7 @@
                     "Name": "{{i18n: Building.GreenhouseUpgrade4.name}}",
                     "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
                     "Description": "{{i18n: Building.GreenhouseUpgrade4.description}}",
-                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Texture": "Buildings\\Greenhouse",
                     "Builder": "Robin",
                     "Size": {
                         "X": 7,
@@ -321,7 +321,7 @@
                     },
                     "SourceRect": {
                         "X": 0,
-                        "Y": 0,
+                        "Y": 160,
                         "Width": 112,
                         "Height": 160
                     },
@@ -330,7 +330,7 @@
                             "Id": "Default",
                             "SourceRect": {
                                 "X": 112,
-                                "Y": 22,
+                                "Y": 143,
                                 "Width": 128,
                                 "Height": 160
                             },
@@ -379,7 +379,7 @@
                     "Name": "{{i18n: Building.GreenhouseUpgrade5.name}}",
                     "NameForGeneralType": "{{i18n: Building.GreenhouseUpgrade.GeneralName}}",
                     "Description": "{{i18n: Building.GreenhouseUpgrade5.description}}",
-                    "Texture": "Buildings\\GreenhouseUpgrades.Greenhouse",
+                    "Texture": "Buildings\\Greenhouse",
                     "Builder": "Robin",
                     "Size": {
                         "X": 7,
@@ -387,7 +387,7 @@
                     },
                     "SourceRect": {
                         "X": 0,
-                        "Y": 0,
+                        "Y": 160,
                         "Width": 112,
                         "Height": 160
                     },
@@ -396,7 +396,7 @@
                             "Id": "Default",
                             "SourceRect": {
                                 "X": 112,
-                                "Y": 22,
+                                "Y": 143,
                                 "Width": 128,
                                 "Height": 160
                             },
