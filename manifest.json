@@ -2,7 +2,7 @@
     "Name": "GreenhouseUpgrades",
     "Author": "CosmicKillsSouls",
     "Description": "Adds upgrade levels to the greenhouse.",
-    "Version": "2.0.1",
+    "Version": "2.0.2",
     "UniqueID": "CosmicKillsSouls.GreenhouseUpgrades",
     "EntryDll": "GreenhouseUpgrades.dll",
     "UpdateKeys": [ "Nexus:28475" ]

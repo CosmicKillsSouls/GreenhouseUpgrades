@@ -2,7 +2,7 @@
     "Name": "GreenhouseUpgrades[CP]",
     "Author": "CosmicKillsSouls",
     "Description": "Content Patcher portion of GreenhouseUpgrades.",
-    "Version": "2.0.1",
+    "Version": "2.0.2",
     "UniqueID": "CosmicKillsSouls.GreenhouseUpgradesCP",
     "UpdateKeys": [ "Nexus:???" ],
     "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }

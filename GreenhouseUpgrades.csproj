@@ -11,7 +11,7 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-		<ContentPacks Include="content packs/[CP] Greenhouse Upgrades" Version="2.0.1" />
+		<ContentPacks Include="content packs/[CP] Greenhouse Upgrades" Version="2.0.2" />
 	</ItemGroup>
 
 </Project>
