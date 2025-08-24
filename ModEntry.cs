@@ -59,7 +59,6 @@ namespace GreenhouseUpgrades
 
             foreach (var b in farm.buildings)
             {
-                Monitor.Log($"Buildings: {b}", LogLevel.Info);
                 CheckGreenhouseUpgradedT1(b, Monitor);
 
                 if (IsSmallerInterior)
@@ -92,12 +91,11 @@ namespace GreenhouseUpgrades
             if ((Game1.player.mailReceived.Contains("GreenhouseAdded")))
             {
                 var Greenhouse = Game1.getFarm().buildings.OfType<GreenhouseBuilding>().FirstOrDefault();
-                Monitor.Log($"{Greenhouse}", LogLevel.Trace);
 
                 if (Greenhouse.GetIndoorsName() == "Greenhouse")
                 {
                     Game1.getFarm().buildings.Remove(Greenhouse);
-                    Monitor.Log($"Vanilla greenhouse removed on save load.", LogLevel.Info);
+                    Monitor.Log($"Vanilla greenhouse removed on save load.", LogLevel.Trace);
                 }
             }
         }
@@ -105,7 +103,6 @@ namespace GreenhouseUpgrades
         {
             if (Game1.player.mailReceived.Contains("ccPantry") && !(Game1.player.mailReceived.Contains("GreenhouseAdded")))
             {
-                Monitor.Log($"Has pantry mail.", LogLevel.Info);
                 foreach (var location in Game1.locations)
                 {
                     if (location.IsBuildableLocation != null)
@@ -114,7 +111,6 @@ namespace GreenhouseUpgrades
                         {
                             string buildingName = building.GetIndoorsName();
                             BuildingsNames.Add(buildingName);
-                            Monitor.Log($"{BuildingsNames}", LogLevel.Info);
 
                             if (buildingName == "Greenhouse")
                             {
@@ -122,8 +118,6 @@ namespace GreenhouseUpgrades
                                 var GreenhouseLocationY = (float)building.tileY.Value;
                                 var DefaultGreenhouse = Game1.getFarm().buildings.OfType<GreenhouseBuilding>().FirstOrDefault();
                                 string id;
-
-                                Monitor.Log($"{DefaultGreenhouse}", LogLevel.Info);
 
                                 if (Game1.player.hasOrWillReceiveMail("CosmicKillsSouls.GreenhouseV6"))
                                 {
@@ -150,21 +144,21 @@ namespace GreenhouseUpgrades
                                     id = "GreenhouseUpgrades.Greenhouse";
                                 }
 
-                                Monitor.Log($"{id}", LogLevel.Info);
+                                Monitor.Log($"{id}", LogLevel.Trace);
 
                                 var CustomGreenhouse = new Building(id, new Vector2(GreenhouseLocationX, GreenhouseLocationY));
 
                                 Game1.getFarm().buildings.Add(CustomGreenhouse);
                                 Game1.player.mailReceived.Add("GreenhouseAdded");
-                                Monitor.Log($"Custom greenhouse added", LogLevel.Info);
+                                Monitor.Log($"Custom greenhouse added", LogLevel.Trace);
 
                                 GameLocation greenhouse = Game1.getLocationFromName("Greenhouse");
                                 GameLocation targetLocation = CustomGreenhouse.indoors.Value;
                                 if (greenhouse == null)
-                                { Monitor.Log("Vanilla greenhouse location is null.", LogLevel.Error); return; }
+                                { Monitor.Log("Vanilla greenhouse location is null.", LogLevel.Warn); return; }
                                 if (targetLocation == null)
                                 {
-                                    Monitor.Log("Custom greenhouse indoors is null. Attempting manual load...", LogLevel.Info); CustomGreenhouse.load(); targetLocation = CustomGreenhouse.indoors.Value;
+                                    Monitor.Log("Custom greenhouse indoors is null. Attempting manual load...", LogLevel.Trace); CustomGreenhouse.load(); targetLocation = CustomGreenhouse.indoors.Value;
                                     if (targetLocation == null)
                                     { Monitor.Log("Custom greenhouse indoors still null after manual load.", LogLevel.Error); return; }
                                 }
@@ -172,14 +166,14 @@ namespace GreenhouseUpgrades
                                 DelayedAction.functionAfterDelay(() =>
                                 {
                                     TransferGreenhouseContents(greenhouse, targetLocation);
-                                    Monitor.Log($"Moved contentes of vanilla greenhouse to Custom one", LogLevel.Info);
+                                    Monitor.Log($"Moved contentes of vanilla greenhouse to Custom one", LogLevel.Trace);
                                 }, 50);
 
 
                                 DelayedAction.functionAfterDelay(() =>
                                 {
                                     Game1.getFarm().buildings.Remove(DefaultGreenhouse);
-                                    Monitor.Log($"Removed vanilla greenhouse.", LogLevel.Info);
+                                    Monitor.Log($"Removed vanilla greenhouse.", LogLevel.Trace);
                                 }, 50);
                                 break;
                             }
