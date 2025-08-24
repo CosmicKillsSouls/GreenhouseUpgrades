@@ -19,6 +19,6 @@
     "config.SectionedPlots.description": "Sets the plots to be sectioned into smaller areas or one large plot.//n Does not work with Smaller Interriors",
     "config.IncludedTreeArea.name": "Included Tree Area",
     "config.IncludedTreeArea.description": "Adds a dedicated area to grow trees in.",
-    "config.SmallerInterrior.name": "Smaller Interrior",
-    "config.SmallerInterrior.description": "Substantially reduces the size of the upgrades."
+    "config.SmallerInterior.name": "Smaller Interior",
+    "config.SmallerInterior.description": "Substantially reduces the size of the upgrades."
 }

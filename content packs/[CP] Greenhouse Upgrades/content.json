@@ -16,22 +16,25 @@
             "AllowValues": "true, false",
             "Description": "{{i18n: config.IncludedTreeArea.description}}"
         },
-        "SmallerInterrior": {
+        "SmallerInterior": {
             "Default": "false",
             "AllowValues": "true, false",
-            "Description": "{{i18n: config.SmallerInterrior.description}}"
+            "Description": "{{i18n: config.SmallerInterior.description}}"
         }
     },
     "Changes": [
         {
             "Action": "Include",
-            "FromFile": "Buildings.json"
+            "FromFile": "Buildings.json",
+            "When": {
+                "SmallerInterior": false
+            }
         },
         {
             "Action": "Include",
             "FromFile": "SmallerBuildings.json",
             "When": {
-                "SmallerInterrior": true
+                "SmallerInterior": true
             }
         },
         {
@@ -64,13 +67,28 @@
         {
             "Action": "Load",
             "Target": "Maps/GreenhouseUpgrade2",
-            "FromFile": "assets/GreenhouseUpgrade2.tmx"
+            "FromFile": "assets/GreenhouseUpgrade2.tmx",
+            "When": {
+                "SmallerInterior": false
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/GreenhouseUpgrade2",
+            "FromFile": "assets/SmallerGreenhouseUpgrade2.tmx",
+            "When": {
+                "SmallerInterior": true
+            },
+            "Priority": "High"
         },
         {
             "Action": "Load",
             "Target": "Maps/GreenhouseUpgrade3",
             "FromFile": "assets/GreenhouseUpgrade3.tmx",
-            "Priority": "Low"
+            "Priority": "Low",
+            "When": {
+                "SmallerInterior": false
+            }
         },
         {
             "Action": "Load",
@@ -78,7 +96,16 @@
             "FromFile": "assets/GreenhouseUpgrade3Large.tmx",
             "When": {
                 "SectionedPlots": false,
-                "SmallerInterrior": false
+                "SmallerInterior": false
+            },
+            "Priority": "High"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/GreenhouseUpgrade3",
+            "FromFile": "assets/SmallerGreenhouseUpgrade3.tmx",
+            "When": {
+                "SmallerInterior": true
             },
             "Priority": "High"
         },
@@ -86,7 +113,10 @@
             "Action": "Load",
             "Target": "Maps/GreenhouseUpgrade5",
             "FromFile": "assets/GreenhouseUpgrade5.tmx",
-            "Priority": "Low"
+            "Priority": "Low",
+            "When": {
+                "SmallerInterior": false
+            }
         },
         {
             "Action": "Load",
@@ -94,7 +124,16 @@
             "FromFile": "assets/GreenhouseUpgrade5Large.tmx",
             "When": {
                 "SectionedPlots": false,
-                "SmallerInterrior": false
+                "SmallerInterior": false
+            },
+            "Priority": "High"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/GreenhouseUpgrade5",
+            "FromFile": "assets/SmallerGreenhouseUpgrade5.tmx",
+            "When": {
+                "SmallerInterior": true
             },
             "Priority": "High"
         }

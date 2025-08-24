@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="42" height="26" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="9">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="31" height="37" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="9">
  <properties>
   <property name="AmbientLight" value="20 20 20"/>
   <property name="IsGreenhouse" value="T"/>
@@ -76,53 +76,53 @@
    </properties>
   </tile>
  </tileset>
- <layer id="1" name="Back" width="42" height="26">
+ <layer id="1" name="Back" width="31" height="37">
   <properties>
    <property name="AmbientLight" value="150 150 150"/>
    <property name="AmbientNightLight" value="150 150 30"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxzZGBgcBzFo3gUj+JBhus4Bi++xT7qTlq7EyQWD6TnsROHaamWkDurgXQMETiWg7ZqiXFnDRG4loO2akfdOerOUXeOunPUnbRx51CoN0F4AfvgwMOhvTQYMbI7qd03oIW5AONy5o8=
+   eJxzZGBgcBzFo3gU0xTXcdAfj9oNwbfYGRjigfQ8duIwqWoJ2V0NpGOIwLEcpKslxu4aInAtB+lqR+0etXvU7pFr91AqUxewE4+pHebUrMdG7R61e9Tu4Ws3JeUkJXaDMCllJHo5Sand9MKDwW5K+pCU6AcAAQMP9g==
   </data>
  </layer>
  <objectgroup id="2" name="Back">
-  <object id="5" name="TileData" x="304" y="112" width="16" height="16">
+  <object id="5" name="TileData" x="224" y="112" width="16" height="16">
    <properties>
     <property name="WaterSource" value="T"/>
    </properties>
   </object>
-  <object id="6" name="TileData" x="320" y="112" width="16" height="16">
+  <object id="6" name="TileData" x="240" y="112" width="16" height="16">
    <properties>
     <property name="WaterSource" value="T"/>
    </properties>
   </object>
-  <object id="7" name="TileData" x="336" y="112" width="16" height="16">
+  <object id="7" name="TileData" x="256" y="112" width="16" height="16">
    <properties>
     <property name="WaterSource" value="T"/>
    </properties>
   </object>
  </objectgroup>
- <layer id="3" name="Buildings" width="42" height="26">
+ <layer id="3" name="Buildings" width="31" height="37">
   <data encoding="base64" compression="zlib">
-   eJztlzsKg1AQRafTPfjZSIxRscsSBMHCfcTChbiWrCRd9pBEvIMWliluyAhz4MCrLgemeqWIVPBq1BqWsIOvQOQD38bUphn2aBxgFIokMDamNqVw3DpPeJ9hZkxtyned1u8++t1/cvcGbwY37FxgQdpT2l2ndbyTi3dy8U4u3snFO7l4Jxfv5HKkzse/I77gKesfnuW07d7Ju+oC6XGj6w==
+   eJxzZGBgcAJibzpiFyB2BOJEIP7NzsDwF4j/0AGD7PkHxKlAexuBWJqDgUEWiGXogEH2yAFxK9RuayDbFoht6IBB9tgh2T0QYd46wsM8GsgmFTQA9dgDsQMZeuOQ7B4IMGr3qN2jdo/aPWr3qN2jdo/aPWr3qN2jdo/aPRjsfjhAdr9ggIx7kIMXQs04TIEZAD6Eifc=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
- <layer id="5" name="Paths" width="42" height="26">
+ <layer id="5" name="Paths" width="31" height="37">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAAB8GREQAAE=
+   eJztwQENAAAAwqD3T20PBxQAAAAALwYR7AAB
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>
- <layer id="7" name="Front" width="42" height="26">
+ <layer id="7" name="Front" width="31" height="37">
   <data encoding="base64" compression="zlib">
-   eJzt0EEKABAQhWFLt+BeyuHRuAbK1o6h/F+97evNGAO8LdjbC9biw9s0uH6///wHAAAAgKbUIxuSZ1/Z1DdSD90sh3obI74lAQ==
+   eJztz8EJACAMQ1GPbqF7CQ6vomvowQXUUpD+Bz2GpM7BmuR1+7Jyn7Sw9sfPfwAAAAAAq8q6fnh1Z9tFdghs7o/5CavtGx8=
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
- <layer id="9" name="AlwaysFront" width="42" height="26">
+ <layer id="9" name="AlwaysFront" width="31" height="37">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAAB8GREQAAE=
+   eJztwQENAAAAwqD3T20PBxQAAAAALwYR7AAB
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
